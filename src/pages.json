@@ -1,0 +1,87 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/horizontal/index",
+      "style": {
+        "navigationBarTitleText": "横屏"
+      }
+    },
+    {
+      "path": "pages/video/index",
+      "style": {
+        "navigationBarTitleText": "精美视频"
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTitleText": "搜索"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "图片展示",
+    "navigationBarBackgroundColor": "#000"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d4237a",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "./static/icon/home.png",
+        "selectedIconPath": "./static/icon/home_c.png"
+      },
+      {
+        "pagePath": "pages/horizontal/index",
+        "text": "横屏",
+        "iconPath": "./static/icon/img.png",
+        "selectedIconPath": "./static/icon/img_c.png"
+      },
+      {
+        "pagePath": "pages/video/index",
+        "text": "精美视频",
+        "iconPath": "./static/icon/video.png",
+        "selectedIconPath": "./static/icon/video_c.png"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "搜索",
+        "iconPath": "./static/icon/search.png",
+        "selectedIconPath": "./static/icon/search_c.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "./static/icon/mine.png",
+        "selectedIconPath": "./static/icon/mine_c.png"
+      }
+    ]
+  }
+  
+	
+
+}
