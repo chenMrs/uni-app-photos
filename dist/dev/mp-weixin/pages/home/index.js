@@ -111,7 +111,7 @@ var components
 try {
   components = {
     uniSegmentedControl: function() {
-      return __webpack_require__.e(/*! import() | node-modules/@dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control */ "node-modules/@dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control.vue */ 44))
+      return __webpack_require__.e(/*! import() | node-modules/@dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control */ "node-modules/@dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control.vue */ 52))
     }
   }
 } catch (e) {
@@ -186,31 +186,31 @@ exports.default = void 0;
 
 var _uniSegmentedControl = function _uniSegmentedControl() {
   __webpack_require__.e(/*! require.ensure | node-modules/@dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control */ "node-modules/@dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control").then((function () {
-    return resolve(__webpack_require__(/*! @dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control */ 44));
+    return resolve(__webpack_require__(/*! @dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control */ 52));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 
 var homeCategory = function homeCategory() {
   __webpack_require__.e(/*! require.ensure | pages/home/home-category/index */ "pages/home/home-category/index").then((function () {
-    return resolve(__webpack_require__(/*! ./home-category */ 51));
+    return resolve(__webpack_require__(/*! ./home-category */ 59));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 
 var homeNew = function homeNew() {
   __webpack_require__.e(/*! require.ensure | pages/home/home-new/index */ "pages/home/home-new/index").then((function () {
-    return resolve(__webpack_require__(/*! ./home-new */ 56));
+    return resolve(__webpack_require__(/*! ./home-new */ 64));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 
 var homeRecommend = function homeRecommend() {
   Promise.all(/*! require.ensure | pages/home/home-recommend/index */[__webpack_require__.e("common/vendor"), __webpack_require__.e("pages/home/home-recommend/index")]).then((function () {
-    return resolve(__webpack_require__(/*! ./home-recommend */ 61));
+    return resolve(__webpack_require__(/*! ./home-recommend */ 69));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 
 var homeAlbum = function homeAlbum() {
   __webpack_require__.e(/*! require.ensure | pages/home/home-album/index */ "pages/home/home-album/index").then((function () {
-    return resolve(__webpack_require__(/*! ./home-album */ 206));
+    return resolve(__webpack_require__(/*! ./home-album */ 214));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 
@@ -234,7 +234,7 @@ var _default = {
         title: "专辑"
       }],
       //   当前激活选中的索引
-      current: 0
+      current: 3
     };
   },
   methods: {

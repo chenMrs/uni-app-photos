@@ -54,7 +54,7 @@ export default {
         { title: "专辑" },
       ],
       //   当前激活选中的索引
-      current: 0,
+      current: 3,
     };
   },
   methods: {
